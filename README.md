@@ -18,7 +18,7 @@
 ### 下载@tensorflow/tfjs-node
 - 此依赖包需要<mark> **翻墙后才能下载** </mark>
 - 配置代理DNS环境变量
-	- 修改**.bash_profile**文件，文件最后增加如下内容
+	- 修改 **.bash_profile** 文件，文件最后增加如下内容
 	
 	``` text
 	#proxy
