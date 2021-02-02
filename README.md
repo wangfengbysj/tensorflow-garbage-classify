@@ -1,7 +1,5 @@
 
-
-
-<h1 align='center'>TensorflowJS 深度学习识别图片</h1>
+# <h1 align='center'>TensorflowJS 深度学习识别图片</h1>
 <p align='center'>
 <img src="https://img.shields.io/badge/License-MIT-green"/><br/>
 </p>
@@ -9,7 +7,9 @@
 	<li>使用Tensorflow JS 训练图片，以识别图片进行分类的深度学习程序。</li>
 	<li>使用开源的学习模型，进行修改后，训练图片生成模型。</li>
 </ul>
+
 ---
+
 ## 一、系统环境配置
 
 ### 训练环境变量配置
