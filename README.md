@@ -3,8 +3,9 @@
 <img src="https://img.shields.io/badge/License-MIT-green"/><br/>
 </p>
 <ul>
-	<li>使用Tensorflow JS 训练图片，以识别图片进行分类的深度学习程序。</li>
+	<li>使用Tensorflow JS【tensorflow/tfjs-node】 训练图片，对图片识别后进行分类的深度学习程序。</li>
 	<li>使用开源的学习模型，进行修改后，训练图片生成模型。</li>
+	<li>使用Parcel启动前端服务，使用http-server将本地文件构建成http文件服务</li>
 </ul>
 
 ---
