@@ -37,3 +37,8 @@
 	(or)
 	yarn add @tensorflow/tfjs-node
 	```
+## 二、深度学习训练模型
+
+- 训练模型地址：
+	`https://ai-sample.oss-cn-hangzhou.aliyuncs.com/pipcook/models/mobilenet/web_model/model.json`
+- 离线模型文件：`mobileNet.json`	
