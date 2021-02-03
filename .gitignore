@@ -2,4 +2,6 @@ output
 node_modules
 .git
 .idea
+.cache
 垃圾分类
+dist

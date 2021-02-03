@@ -29,7 +29,7 @@
 
 	```https://github.com/tensorflow/tfjs/tree/master/tfjs-node```
 	
-- 安装tensorflow node
+- <mark> **安装tensorflow node** </mark>
 	- mac 环境需要先安装```$ xcode-select --install```
 
 	```
@@ -37,8 +37,26 @@
 	(or)
 	yarn add @tensorflow/tfjs-node
 	```
+	
 ## 二、深度学习训练模型
 
 - 训练模型地址：
 	`https://ai-sample.oss-cn-hangzhou.aliyuncs.com/pipcook/models/mobilenet/web_model/model.json`
 - 离线模型文件：`mobileNet.json`	
+
+## 三、前端环境配置
+
+- <mark> **前端环境安装** </mark>
+
+``` node
+1、npm i parcel-bundler -S （前端服务程序）
+2、npm i react react-dom antd -S (前端依赖库)
+3、npm i @tensorflow/tfjs -S (前端调用tensorflow)
+4、npm i http-server --save-dev （把本地文件作为文件服务器启动）
+```
+
+- 前端服务启动：`npm start`
+- 启动本地目录为服务目录：`hs output --cors` 
+	- 加载output目录内容
+	- cors 防止跨域
+- package.json配置：`"start": "parcel app/index.html"`
