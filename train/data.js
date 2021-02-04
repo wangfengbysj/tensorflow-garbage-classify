@@ -68,7 +68,7 @@ const getData = async (trainDir, outputDir) => {
     classes.forEach((dir, dirIndex) => {
         fs.readdirSync(`${trainDir}/${dir}`)
             .filter(n => n.match(/jpg$/))
-            .slice(0, 1000)
+            // .slice(0, 1000)
             .forEach(filename => {
                 // 图片相对路径
                 const imgPath = `${trainDir}/${dir}/${filename}`
