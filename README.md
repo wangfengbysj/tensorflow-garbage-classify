@@ -57,7 +57,11 @@
 ```
 
 - 前端服务启动：`npm start`
-- 启动本地目录为服务目录：`hs output --cors` 
+- 启动本地目录为服务目录：`hs output --cors`
+	- 指定端口号：`-p 8080`默认是8080端口  
+		- 举例：`hs output --cors -p 8081`
 	- 加载output目录内容
 	- cors 防止跨域
 - package.json配置：`"start": "parcel app/index.html"`
+	- 指定端口号：`-p 8000`或者`--port 8000` 
+		- 举例：`start": "parcel app/index.html --port 8000`
